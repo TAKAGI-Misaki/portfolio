@@ -456,16 +456,16 @@ h5 {
 }
 
 .other-box {
-    width: 90%;
+    width: 80%;
     height: auto;
     padding-top: 80px;
-    margin-bottom: 50px;
-    text-align: center;
+    padding-bottom: 50px;
+    margin: 0 auto;
     display: flex;
 }
 
 .other-boxLeft {
-    width: 50%;
+    width: 55%;
     height: auto;
 }
 
@@ -476,8 +476,9 @@ h5 {
 }
 
 .other-boxRight {
+    margin: 0 auto;
     text-align: left;
-    width: 50%;
+    width: 40%;
     height: auto;
     color: white;
     letter-spacing: 0.1em;
