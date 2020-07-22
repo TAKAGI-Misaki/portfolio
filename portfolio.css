@@ -1,0 +1,770 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+  background: #eee;
+}
+
+body  {
+    width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.display-size {
+    width:100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.mobile-fixed-header,.mobile-menu-toggle {
+    display: none;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Futura";
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    color: #424242;
+}
+
+.subTitle {
+    line-height: 10px;
+    height: 70px;
+}
+
+.subTitle2 h1 {
+    text-align: center;
+    font-family: "Futura";
+    font-size: 40px;
+    letter-spacing: 0.1em;
+    color: white;    
+}
+
+.subTitle-p {
+    text-align: center;
+    color: #424242;
+    letter-spacing: 0.1em;
+    font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
+}
+
+.subTitle-p2 {
+    text-align: center;
+    color: white;
+    letter-spacing: 0.1em;
+    font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;   
+}
+
+.subTitle2 {
+    line-height: 10px;
+    height: 70px;
+}
+
+
+.header-Bg {
+    width: 100%;
+    height: 800px;
+    position: relative;
+    overflow: hidden;
+}
+
+.wave-box {
+    transform: translate(-50%,-50%);
+    width: 3000px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: -2100px;
+}
+
+.wave-box2 {
+    transform: translate(-50%,-50%);
+    width: 3000px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    bottom: -530px;
+}
+
+
+
+/*<!-- wave animation --> */
+
+.wave {
+    position: absolute;
+    background: #0af;
+    opacity: 0.4;
+    width: 3000px;
+    height: 3000px;
+    border-radius: 43%;
+    animation: drift 5000ms infinite linear;
+}
+
+.wave2 {
+    position: absolute;
+    background: #0af;
+    opacity: 0.4;
+    width: 3000px;
+    height: 3000px;
+    border-radius: 43%;
+    animation: drift 5000ms infinite linear;    
+}
+
+.three {
+    animation: drift 7000ms infinite linear;
+}
+
+.two {
+    width: 3000px;
+    height: 3000px;
+    background: yellow;
+    opacity: 0.1;
+    animation: drift 9000ms infinite linear;
+}
+
+@keyframes drift {
+  from { transform: rotate(0deg); }
+  from { transform: rotate(360deg); }
+}
+
+
+/*<!-- wave animation --> */
+
+header {
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    z-index: 1;
+}
+
+
+.title {
+    position: relative;
+    width: 600px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+#title-img {
+    position: absolute;
+    width: 100%;
+    top: 30px;
+    
+}
+
+.header-nav {
+    width: 100%;
+}
+
+.nav-box {
+    width: 90%;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+}
+
+ul {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nav-list {
+    display: block;
+    font-family: "Futura";
+    list-style: none;
+    color: white;
+    line-height: 80px;
+    letter-spacing: 0.1em;
+    display: inline;
+    margin: 0 auto;
+    padding-right: 60px;
+    padding-bottom: 0;
+}
+
+.header-Link {
+    text-decoration: none;
+}
+
+
+.header-Link:hover {
+    margin-bottom: 20px;
+    text-decoration: underline white;
+}
+
+
+.fixed-header {
+    display: none;
+    width: 100%;
+    height: auto;
+    background: white;
+    top: 0;
+    left: 0;
+    position: fixed;
+    z-index: 2;
+    box-shadow: 0 0 40px rgba(0,0,0,.1);
+}
+
+
+.fixed-header li {
+    color: #A3D4FB;
+    line-height: 80px;
+}
+
+
+.main-wrapper {
+    width: 100%;
+    height: auto;
+    border-radius: 60px;
+    margin-top: 80px;
+    background: white;
+}
+
+.Works-page {
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+}
+
+.works-contents {
+    width: 100%;
+    height: auto;
+}
+
+.works-box {
+    width: 90%;
+    height: auto;
+    background: white;
+    margin: 0 auto;
+    padding-top: 80px;
+    display: flex;
+}
+
+.work-visual {
+    overflow: hidden;
+    width: 80%;
+    height: 40%;
+    display: block;
+    border-radius: 60px;
+    margin: 30px;
+    box-shadow: 0 0 40px rgba(0,0,0,.1);
+    position: relative;
+}
+
+.work-visual:hover {
+    box-shadow: 0 0 40px rgba(0,0,0,.3);
+    transition: .8s;
+}
+
+
+.work1 {
+    background-image: url("https://github.com/TAKAGI-Misaki/portfolio/blob/master/img/%E3%82%AF%E3%82%99%E3%83%AB%E3%83%BC%E3%83%95%E3%82%9A%2051.png?raw=true");
+    background-size: cover;
+    
+}
+
+.work2 {
+    background-image: url("https://github.com/TAKAGI-Misaki/portfolio/blob/master/img/%E3%82%AF%E3%82%99%E3%83%AB%E3%83%BC%E3%83%95%E3%82%9A%2052.png?raw=true");
+    background-size: cover;
+}
+
+.work3 {
+    background-image: url("https://github.com/TAKAGI-Misaki/portfolio/blob/master/img/%E3%82%AF%E3%82%99%E3%83%AB%E3%83%BC%E3%83%95%E3%82%9A%2053.png?raw=true");
+    background-size: cover;
+}
+
+.work4 {
+    background-image: url("https://github.com/TAKAGI-Misaki/portfolio/blob/master/img/%E3%82%AF%E3%82%99%E3%83%AB%E3%83%BC%E3%83%95%E3%82%9A%2054.png?raw=true");
+    background-size: cover;
+}
+
+.mokup {
+    margin: 0 auto;
+    width: 90%;
+    display: block;
+    transition: .8s;
+    filter: drop-shadow(-10px 10px 10px rgba(0,0,0,0.1));
+}
+
+h5 {
+    color: white;
+    font-size: 70px;
+    position: absolute;
+    top: -40px;
+    left: 0;
+    text-shadow: 0 0 20px rgba(0,0,0,.1);
+}
+
+
+
+.mokup:hover {
+    padding-left: 58%;
+    transition: .8s;
+}
+
+.modal-ABC,.modal-hare,.modal-Airbnb,.modal-paspol {
+    width: 100%;
+    height: 100%;
+    background:  rgba(1,1,1,.9);
+    position: fixed;
+    z-index: 10;
+    top:0;
+    left: 0;
+    display: none;
+    overflow-y: auto;
+}
+
+.modal-worksBox {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    height: 800px;
+    display: flex;
+}
+
+.works-modal-img {
+    margin: 0 auto;
+}
+
+.full-img {
+    padding-bottom: 50px;
+}
+
+.works-text-box {
+    width: 100%;
+    color: white;
+    padding-left: 50px;
+    letter-spacing: 0.1em;
+    font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
+}
+
+.fa-external-link-alt {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.fa-file-code {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.works-text-box a {
+    color: white;
+}
+
+#logo-img {
+    width: 60%;
+    height: 200px;
+    background-image: url("https://github.com/TAKAGI-Misaki/portfolio/blob/master/img/logo-kurenai.png?raw=true");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.pas-polVisual {
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.m-top {
+    margin-top: 50px;
+}
+
+.bgImg {
+  position   : absolute;
+  top        : 0;
+  left       : 0;
+  bottom     : 0;
+  right      : 0;
+  opacity    : 0;
+  animation  : bgAnime 15s infinite;    
+} 
+
+.src1 {
+    background-image: url("https://github.com/TAKAGI-Misaki/portfolio/blob/master/img/main_visual_13-0x0.jpg?raw=true");
+    background-size: contain;
+    background-repeat: no-repeat;
+ 
+}
+
+.src2 {
+    background-image: url("https://github.com/TAKAGI-Misaki/portfolio/blob/master/img/main_visual_7-0x0.jpg?raw=true");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    animation-delay: 3s;
+}
+
+.src3 {
+    background-image: url("https://github.com/TAKAGI-Misaki/portfolio/blob/master/img/main_visual_6-0x0.jpg?raw=true");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    animation-delay: 6s;
+}
+
+.src4 {
+    background-image: url("https://github.com/TAKAGI-Misaki/portfolio/blob/master/img/main_visual_111-0x0.jpg?raw=true");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    animation-delay: 9s;
+}
+
+.src5 {
+    background-image: url("https://github.com/TAKAGI-Misaki/portfolio/blob/master/img/main_visual_2-0x0.jpg?raw=true");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    animation-delay: 12s;
+}
+
+.src6 {
+    background-image: url("https://github.com/TAKAGI-Misaki/portfolio/blob/master/img/main_visual_13-0x0.jpg?raw=true");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    animation-delay: 15s;
+}
+
+@keyframes bgAnime {
+    0%{opacity: 0;}
+    5%{opacity: 1;}
+    25%{opacity: 1;}
+    30%{opacity: 0;}
+    100%{opacity: 0;}
+}
+
+
+.otherWorks-page {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    padding-top: 80px;
+    background: #A3D4FB;
+    
+}
+
+.other-box {
+    width: 90%;
+    height: auto;
+    padding-top: 80px;
+    margin-bottom: 50px;
+    text-align: center;
+    display: flex;
+}
+
+.other-boxLeft {
+    width: 50%;
+    height: auto;
+}
+
+.mokup-port {
+    width: 90%;
+    height: 550px;
+    margin: 0 auto;
+}
+
+.other-boxRight {
+    text-align: left;
+    width: 50%;
+    height: auto;
+    color: white;
+    letter-spacing: 0.1em;
+    font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
+}
+
+.other-boxRight a {
+    color: white;
+}
+
+.other-musicBox {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.menu {
+    width: 100%;
+    height: auto;
+    padding-bottom: 80px;
+    display: flex;
+}
+
+.menu-card {
+    width: 20%;
+    height: 20%;
+    display: inline-block;
+    margin: 0 auto;
+    
+}
+
+.thumbnail:hover {
+    opacity: .9;
+    filter: brightness(108%);
+    box-shadow: 0 0 40px rgba(0,0,0,.1);
+}
+
+.modal-one,.modal-two,.modal-three,.modal-four {
+    width: 100%;
+    height: 100%;
+    background:  rgba(1,1,1,.9);
+    position: fixed;
+    z-index: 10;
+    top:0;
+    left: 0;
+    display: none;
+}
+
+.modal-box {
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 90%;
+    height: 800px;
+    color: white;
+}
+
+.modal-box p,.modal-box h3 {
+    width: 70%;
+    display: block;
+    margin: 0 auto;    
+}
+
+.batu-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+}
+
+video {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.About-page {
+    width: 100%;
+    height: 600px;
+    margin-top: 80px;
+    padding-top: 80px;
+  
+}
+
+.About-contents {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+    text-align: center;
+    letter-spacing: .1em;
+}
+
+.About-box {
+    width: 80%;
+    height:　auto;
+    background: white;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: "GAGAGAGA";
+    color: #424242;
+}
+
+.about-p {
+    color: #424242;
+    letter-spacing: 0.1em;
+    font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;    
+}
+
+.about-p-p {
+    text-align: left;
+    color: #424242;
+    letter-spacing: 0.1em;
+    font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;    
+}
+
+.misaki-fase {
+    width: 200px;
+    height: 200px;
+    opacity: .8;
+    margin: 0 auto;
+    background-image: url("https://github.com/TAKAGI-Misaki/portfolio/blob/master/img/%E3%82%BF%E3%82%AB%E3%82%AD%E3%82%99%E3%83%9F%E3%82%B5%E3%82%AD.png?raw=true");
+    background-size: cover;
+}
+
+.Skill-page {
+    width: 100%;
+    height: 1000px;
+    margin-top: 160px;
+    padding-top: 80px;
+     
+}
+
+.Skill-contents {
+    width: 100%;
+    height: auto;
+    margin-top: 80px;
+}
+
+.Skill-box {
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.Skill-ex {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    display: flex;
+}
+
+.fa-code,.fa-camera,.fa-headphones-alt {
+    font-size: 150px;
+    color: #424242;
+}
+
+.Skill-exImg {
+    width: 500px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.Skill-p p {
+    font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif; 
+    text-align: left;
+    color: #424242;
+    letter-spacing: .1em;
+}
+
+.Slill-apps {
+    width: 700px;
+    height: auto;
+    padding-top: 80px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.Skill-appImg {
+    width: 50%;
+    height: 100px;
+    display: flex;
+}
+
+.appLeft {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    padding-left: 50px
+}
+
+.appRight {
+    width: 500px;
+    height: auto;
+    padding-left: 30px;
+    color: #424242;
+    font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif; 
+}
+
+.appRight h4 {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.Contact-page {
+    width: 100%;
+    height: auto;
+    margin-top: 300px;
+}
+
+.Contact-box {
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.Contact-box p {
+    color: #424242;
+    font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
+}
+
+#target {
+    font-size: 20px;
+}
+
+#text-copy {
+    background: #424242;
+    color: white;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 60px;
+    position: relative;
+    display: none;
+}
+
+#text-copy:before {
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-bottom: 15px solid #424242;
+}
+
+
+
+.fa-envelope {
+    font-size: 150px;
+    color: #424242;    
+}
+
+.fa-pencil-alt {
+    color: #424242;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.fa-pencil-alt:after {
+    
+}
+
+.footer-Bg {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    overflow: hidden; 
+}
+
+footer {
+    font-size: 10px;
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top: 160px;
+    left: 0;
+    z-index: 1;
+}
+
+.footer-Bg p {
+    color: white;
+    text-align: center;
+    font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;    
+}
