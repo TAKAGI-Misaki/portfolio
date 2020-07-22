@@ -32,6 +32,10 @@
 
 }
 
+iframe {
+   padding-top: 10px;   
+}
+
 .mokup-port {
     height: auto;
 }

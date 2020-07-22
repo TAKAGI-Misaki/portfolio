@@ -115,7 +115,6 @@ $('.music-modal-one').click(function(){
     
 $('.modal-close').click(function(){
     $('.modal-one').fadeOut(); 
-    $('#yamanosachi')[0].pause();
     $('html').css('overflow-y','auto');
     return false;   
 }); 
@@ -131,7 +130,6 @@ $('.music-modal-two').click(function(){
     
 $('.modal-close').click(function(){
     $('.modal-two').fadeOut(); 
-    $('#tyuka')[0].pause();
     $('html').css('overflow-y','auto');
     return false;   
 }); 
@@ -147,7 +145,6 @@ $('.music-modal-three').click(function(){
     
 $('.modal-close').click(function(){
     $('.modal-three').fadeOut(); 
-    $('#echo')[0].pause();
     $('html').css('overflow-y','auto');
     return false;   
 });    
@@ -163,7 +160,6 @@ $('.music-modal-four').click(function(){
     
 $('.modal-close').click(function(){
     $('.modal-four').fadeOut(); 
-    $('#m')[0].pause();
     $('html').css('overflow-y','auto');
     return false;   
 });    

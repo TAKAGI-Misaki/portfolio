@@ -550,8 +550,8 @@ h5 {
     right: 30px;
 }
 
-video {
-    width: 70%;
+iframe {
+    padding-top: 50px;
     display: block;
     margin: 0 auto;
     padding-bottom: 50px;
