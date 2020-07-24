@@ -1,5 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
+#mobile-none,.fa-external-link-alt {
+    display: none;
+}
+
 .title {
     position: relative;
     width: 500px;
