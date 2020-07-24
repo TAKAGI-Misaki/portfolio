@@ -117,7 +117,7 @@ $('.music-modal-one').click(function(){
 $('.modal-close').click(function(){
     $('.modal-one').fadeOut(); 
     $('html').css('overflow-y','auto');
-    $( '#tyuka').removeAttr( "src" );
+    $( '#yamanosachi').removeAttr( "src" );
     return false;   
 }); 
     
