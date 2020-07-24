@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* CSS Document */
-
 html {
   background: #eee;
 }
@@ -581,9 +580,10 @@ iframe {
     margin: 0 auto;
 }
 
-h2 {
-    font-family: "GAGAGAGA";
-    color: #424242;
+#name {
+    width: 200px;
+    margin: auto;
+    padding-top: 20px;
 }
 
 .about-p {
