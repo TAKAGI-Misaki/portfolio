@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+#mobile-none,.fa-external-link-alt {
+    display: none;
+    font-size: 0;
+}
+
+.title {
+    position: relative;
+    width: 500px;
+    height: 140px;
+    margin: 0 auto;
+}
+
+.work-visual {
+    height: 100%;
+}
+
+
+.works-box,.other-box {
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.other-box {
+    padding-bottom: 50px;
+}
+
+.work-visual,.other-boxLeft,.other-boxRight {
+    margin: 0 auto;
+}
+
+.other-boxLeft {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+
+}
+
+iframe {
+   padding-top: 10px;   
+}
+
+.mokup-port {
+    height: auto;
+}
+
+.other-boxRight {
+    width: 65%;
+}
+
+.work1,.work2,.work3,.work4 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.work1 {
+    background: #CCF0E1;    
+}
+
+.work2 {
+    background: #FAE1F6;    
+}
+
+.work3 {
+    background: #F8DC88;    
+}
+
+.work4 {
+    background: #F76A8C;    
+}
+
+.works-box {
+    padding-top: 0;
+}
+
+.mokup:hover {
+    padding-left: 0;
+}
+
+.modal-worksBox {
+    width: 90%;
+    top: 500px;
+    flex-direction: column;
+}
+
+.works-text-box {
+    width: 90%;
+}
+
+.m-top {
+    margin-bottom: 80px;
+}
+
+.modal-box {
+    width: 80%;
+    top: 700px;
+}
+
+video {
+    width: 100%;
+}
+
+    
