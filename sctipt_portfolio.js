@@ -109,6 +109,7 @@ $('.music-modal-one').click(function(){
            var target = $(this).data('target');
            var modal = document.getElementById(target); 
    $('.modal-one').fadeIn();
+    $( "#yamanosachi" ).attr( 'src','https://www.youtube.com/embed/h4Ycq5H2MVQ' );
     $('html').css('overflow-y','hidden');
     return false;
 });
@@ -116,6 +117,7 @@ $('.music-modal-one').click(function(){
 $('.modal-close').click(function(){
     $('.modal-one').fadeOut(); 
     $('html').css('overflow-y','auto');
+    $( '#tyuka').removeAttr( "src" );
     return false;   
 }); 
     
@@ -124,6 +126,7 @@ $('.music-modal-two').click(function(){
            var target = $(this).data('target');
            var modal = document.getElementById(target); 
    $('.modal-two').fadeIn();
+    $( '#tyuka' ).attr( 'src','https://www.youtube.com/embed/kC8m6-09jtM' );
     $('html').css('overflow-y','hidden');
     return false;
 });    
@@ -139,12 +142,14 @@ $('.music-modal-three').click(function(){
            var target = $(this).data('target');
            var modal = document.getElementById(target); 
    $('.modal-three').fadeIn(); 
+    $( '#echo' ).attr( 'src','https://www.youtube.com/embed/4tryrRmC0Mk' );
     $('html').css('overflow-y','hidden');
     return false;
 });
     
 $('.modal-close').click(function(){
-    $('.modal-three').fadeOut(); 
+    $('.modal-three').fadeOut();
+    $( '#echo').removeAttr( "src" );
     $('html').css('overflow-y','auto');
     return false;   
 });    
@@ -154,12 +159,14 @@ $('.music-modal-four').click(function(){
            var target = $(this).data('target');
            var modal = document.getElementById(target); 
    $('.modal-four').fadeIn();
+    $( '#m' ).attr( 'src','https://www.youtube.com/embed/71STim5VKt4' );
     $('html').css('overflow-y','hidden');
     return false;
 });    
     
 $('.modal-close').click(function(){
-    $('.modal-four').fadeOut(); 
+    $('.modal-four').fadeOut();
+    $( '#m').removeAttr( "src" );
     $('html').css('overflow-y','auto');
     return false;   
 });    
