@@ -358,7 +358,7 @@ h5 {
 #logo-img {
     width: 60%;
     height: 200px;
-    background-image: url("https://github.com/TAKAGI-Misaki/portfolio/blob/master/img/logo-kurenai.png?raw=true");
+    background-image: url("https://raw.githubusercontent.com/TAKAGI-Misaki/portfolio/773d885988e2a36704c1d5ba8c9c7541dbb6103b/img/logo-kurenai.svg");
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0 auto;
@@ -538,6 +538,8 @@ h5 {
 }
 
 .modal-box p,.modal-box h3 {
+    font-family: '小塚ゴシック Pro','Kozuka Gothic Pro',sans-serif;
+    letter-spacing: 0.1em;
     width: 70%;
     display: block;
     margin: 0 auto;    
