@@ -525,6 +525,7 @@ h5 {
     top:0;
     left: 0;
     display: none;
+    overflow-y: auto;
 }
 
 .modal-box {
