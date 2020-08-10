@@ -1,9 +1,68 @@
 @charset "UTF-8";
 /* CSS Document */
-.header-nav,.fa-external-link-alt,#mobile-none {
+
+.header-nav,.fa-external-link-alt,#mobile-none,.wave-box,.wave-box2 {
     display: none;
     font-size: 0;
 }
+
+.header-Bg {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.wave-mobible-box {
+    transform: translate(-50%,-50%);
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    left: 50%;
+    top: 120px;
+}
+
+.wave-mobible-box2 {
+    transform: translate(-50%,-50%);
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    left: 50%;
+    bottom: -930px;
+}
+
+.wave3 {
+    position: absolute;
+    background: #0af;
+    opacity: 0.4;
+    width: 700px;
+    height: 700px;
+    border-radius: 43%;
+    animation: drift 5000ms infinite linear;
+}
+
+.wave4 {
+    position: absolute;
+    background: #0af;
+    opacity: 0.4;
+    width: 700px;
+    height: 700px;
+    border-radius: 43%;
+    animation: drift 5000ms infinite linear;
+}
+
+
+.six {
+    animation: drift 7000ms infinite linear;
+}
+
+.five {
+    width: 700px;
+    height: 700px;
+    background: yellow;
+    opacity: 0.1;
+    animation: drift 9000ms infinite linear;
+}
+
 
 .Works-page {
     padding-top: 50px;
