@@ -1,5 +1,21 @@
 $(function(){   
-  
+
+//start
+    
+　setTimeout(function(){
+     $('.title').fadeIn(100);
+   $('.title').addClass('active-title'); 
+},300); 
+     
+    
+　setTimeout(function(){
+     var w = $('html').width();
+     if (w > 500) {
+      $('.header-nav').fadeIn(100);
+   $('.header-nav').addClass('active-title');        
+     }
+},500); 
+    
 //fixed-header    
   $(window).on('load scroll', function(){
 
@@ -9,6 +25,74 @@ $(function(){
       $('.fixed-header').fadeOut(400);  
     }
   });
+    
+//fadeIn
+    $(window).on('load scroll',function(){
+       
+        if ($(window).scrollTop() > 300) {
+            $('.work1').fadeIn(400);
+            $('.work1').addClass('active1');
+        
+        }
+    });
+    
+    $(window).on('load scroll',function(){
+       
+        if ($(window).scrollTop() > 300) {
+            $('.work2').fadeIn(400);
+            $('.work2').addClass('active2');
+        }
+    });
+    
+    $(window).on('load scroll',function(){
+       
+        if ($(window).scrollTop() > 550) {
+            $('.work3').fadeIn(400);
+            $('.work3').addClass('active3');
+        }
+    });
+    
+    $(window).on('load scroll',function(){
+       
+        if ($(window).scrollTop() > 550) {
+            $('.work4').fadeIn(400);
+            $('.work4').addClass('active4');
+        }
+    });
+    
+//fadeIn
+    $(window).on('load scroll',function(){
+       
+        if ($(window).scrollTop() > 2400) {
+            $('.card1').fadeIn(400);
+            $('.card1').addClass('active5');
+        
+        }
+    });
+    
+    $(window).on('load scroll',function(){
+       
+        if ($(window).scrollTop() > 2400) {
+            $('.card2').fadeIn(400);
+            $('.card2').addClass('active6');
+        }
+    });
+    
+    $(window).on('load scroll',function(){
+       
+        if ($(window).scrollTop() > 2400) {
+            $('.card3').fadeIn(400);
+            $('.card3').addClass('active7');
+        }
+    });
+    
+    $(window).on('load scroll',function(){
+       
+        if ($(window).scrollTop() > 2400) {
+            $('.card4').fadeIn(400);
+            $('.card4').addClass('active8');
+        }
+    });    
   
 //scroll 
   $('.home-btn').click(function(){

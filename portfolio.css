@@ -145,6 +145,8 @@ header {
     width: 600px;
     height: 200px;
     margin: 0 auto;
+    transform: scale(.7,.7);
+    display: none;
 }
 
 #title-img {
@@ -156,6 +158,13 @@ header {
 
 .header-nav {
     width: 100%;
+    display: none;
+}
+
+.active-title {
+    transform: scale(1,1);
+    transition: .7s;
+    opacity: 1;
 }
 
 .nav-box {
@@ -223,7 +232,7 @@ ul {
 
 .Works-page {
     width: 100%;
-    height: auto;
+    height: 1200px;
     padding-top: 80px;
 }
 
@@ -261,22 +270,42 @@ ul {
 .work1 {
     background-image: url("https://github.com/TAKAGI-Misaki/portfolio/blob/master/img/%E3%82%AF%E3%82%99%E3%83%AB%E3%83%BC%E3%83%95%E3%82%9A%2051.png?raw=true");
     background-size: cover;
-    
+    display: none;
+    transform: scale(0.7,0.7);
+    transition: 1s;
 }
 
 .work2 {
     background-image: url("https://github.com/TAKAGI-Misaki/portfolio/blob/master/img/%E3%82%AF%E3%82%99%E3%83%AB%E3%83%BC%E3%83%95%E3%82%9A%2052.png?raw=true");
     background-size: cover;
+    display: none;
+    transform: scale(0.7,0.7);
 }
 
 .work3 {
     background-image: url("https://github.com/TAKAGI-Misaki/portfolio/blob/master/img/%E3%82%AF%E3%82%99%E3%83%AB%E3%83%BC%E3%83%95%E3%82%9A%2053.png?raw=true");
     background-size: cover;
+    display: none;
+    transform: scale(0.7,0.7);
 }
 
 .work4 {
     background-image: url("https://github.com/TAKAGI-Misaki/portfolio/blob/master/img/%E3%82%AF%E3%82%99%E3%83%AB%E3%83%BC%E3%83%95%E3%82%9A%2054.png?raw=true");
     background-size: cover;
+    display: none;
+    transform: scale(0.7,0.7);
+}
+
+.active1,.active3 {
+    transform: scale(1,1);
+    transition: .5s;
+    opacity: 1;
+}
+
+.active2,.active4 {
+    transform: scale(1,1);
+    transition: 1s;
+    opacity: 1;
 }
 
 .mokup {
@@ -515,6 +544,35 @@ h5 {
     display: inline-block;
     margin: 0 auto;
     
+}
+
+.card1,.card2,.card3,.card4 {
+    display: none;
+    transform: scale(.7,.7);
+}
+
+.active5 {
+    transform: scale(1,1);
+    transition: .5s;
+    opacity: 1;
+}
+
+.active6 {
+    transform: scale(1,1);
+    transition: 1s;
+    opacity: 1;
+}
+
+.active7 {
+    transform: scale(1,1);
+    transition: 1.5s;
+    opacity: 1;
+}
+
+.active8 {
+    transform: scale(1,1);
+    transition: 2s;
+    opacity: 1;
 }
 
 .thumbnail:hover {
