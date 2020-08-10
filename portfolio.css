@@ -467,12 +467,19 @@ h5 {
 .other-boxLeft {
     width: 55%;
     height: auto;
+    position: relative;
 }
 
 .mokup-port {
     width: 90%;
     height: 550px;
     margin: 0 auto;
+}
+
+#mokup-X {
+    position: absolute;
+    top: 33%;
+    right: -30px;
 }
 
 .other-boxRight {
